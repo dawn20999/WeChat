@@ -1,0 +1,12 @@
+<!--pages/list/list.wxml-->
+<scroll-view scroll-y="true">
+<view class="list">
+    <block wx:for="{{list}}" wx:for-item="list" wx:key data-item="{{list}}" data-index="{{index}}">
+        <view class="item flex" bindtap="itemPage">
+            <image class="icon" src="{{list.icon}}" mode="aspectFill"></image>
+            <text class="title flex-1">{{list.title}}</text>
+            <text class="arrow"></text>
+        </view>
+    </block>
+    </view>
+</scroll-view>

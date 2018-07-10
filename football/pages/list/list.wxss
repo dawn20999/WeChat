@@ -1,0 +1,22 @@
+/* pages/list/list.wxss */
+.list{
+    padding: 0 20rpx;
+}
+.item{
+    padding: 30rpx 0;
+    border-bottom: 1px solid #ededed;
+}
+.icon{
+    width: 40rpx;
+    height: 50rpx;
+}
+.title{
+    font-size: 30rpx;
+    margin-left: 20rpx;
+}
+.arrow{
+    width: 16rpx;
+    height: 29rpx;
+    background: url('https://dawn20999.github.io/onlineImages/givelove/arrow.png') no-repeat;
+    background-size: cover;
+}
