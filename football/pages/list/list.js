@@ -12,7 +12,7 @@ Page({
 			},
 			{
 				icon:"https://dawn20999.github.io/onlineImages/givelove/loveiocn@2x.png",
-				title:"青岛胜地（北京-立水桥）",
+				title:"青岛胜地（北京-国贸）",
 			},
 			{
 				icon:"https://dawn20999.github.io/onlineImages/givelove/loveiocn@2x.png",
@@ -21,8 +21,4 @@ Page({
 		]
     },
 
-    itemPage:function(e){
-		console.log(e);
-	
-	}
 });
